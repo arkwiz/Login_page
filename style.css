@@ -1,0 +1,186 @@
+/*Start Global Style*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#e9ebee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  height:100%
+
+}
+
+.login ,.register{width: 50%}
+
+/*Start Login Style*/
+.login{
+    float:left;
+    background-color: #fafafa;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    padding-top: 100px;
+}
+.login h1{
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+input[type="email"] , input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #eeeeef;
+}
+input[type="checkbox"]{
+    float: left;
+    margin-right: 5px;
+}
+.login span{
+    float: left
+}
+.login a{
+    float: right;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s all ease-in-out;
+}
+.login a:hover{color: #26c59b;}
+.login button{
+    width: 100%;
+    margin: 30px 0;
+    padding: 10px;
+    border: none;
+    background-color: #26c59b;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.login button:hover{
+    border-radius: 10px;
+    
+}
+.login hr{
+    width: 30%;
+    display: inline-block
+}
+
+.login p{
+    display: inline-block;
+}
+.login ul{
+    list-style: none;
+    margin-bottom:40px;  
+}
+.login ul li{
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.login ul li:hover{opacity: 0.6}
+.login ul li:last-child{margin-right: 0}
+.login .copyright{
+    display: inline-block;
+    float: none;
+}
+/*Start Register Style*/
+.register{
+    float: right;
+    height: 100%;
+    color:#fff;
+    border-radius:  0 10px 10px  0;
+    text-align: center;
+    padding: 100px 0;
+
+/* Making the gradient animated */
+
+        width: 100wh;
+        height: 90vh;
+        color: #fff;
+        background: linear-gradient(-45deg, #1A0C3F 0%, #26c59b 50%, #58539B 100%);
+        background-size: 400% 400%;
+        -webkit-animation: Gradient 15s ease infinite;
+        -moz-animation: Gradient 15s ease infinite;
+        animation: Gradient 15s ease infinite;
+    }
+    
+    @-webkit-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+    
+    @-moz-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+    
+    @keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+}
+
+    /*  */
+
+.register h2{
+    font-size: 40px;
+    letter-spacing: 3px
+}
+.register p{
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.logo {
+    margin-top: -60px;
+    width: 10em;
+    height: auto;
+}
+
+
+
+.signUp {
+    width: 100%;
+    margin-top: -30px;
+    padding: 10px;
+    border: none;
+    border: #26c59b;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
